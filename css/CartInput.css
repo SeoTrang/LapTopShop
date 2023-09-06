@@ -1,0 +1,53 @@
+
+/* Ẩn nút tăng/giảm giá trị trong trường số */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.error-input {
+    border: 1px solid red;
+}
+
+.form-input .title{
+    display: flex;
+
+}
+
+.form-input .title i{
+    color: #e94560;
+    margin-right: 0.5em;
+}
+
+.order-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-bottom button{
+    border: none;
+    color: #ffffff;
+    min-width: 7em;
+    min-height: 2.5em;
+    border-radius: 5px;
+}
+
+.order-bottom a{
+    border: none;
+    min-width: 7em;
+    min-height: 2.5em;
+    border-radius: 5px;
+    color: #ffffff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-back{
+    background-color: #d0021c;
+}
+
+.btn-order{
+    background-color: #0f3460;
+}

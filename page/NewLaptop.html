@@ -1,0 +1,1924 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Shop</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    <div id="app">
+        <div class="header">
+            <div class="header-top">
+                <div class="logo">
+                    <img src="https://laptopaz.vn/media/banner/logo_laptopaz%20(2).jpg" alt="">
+                </div>
+
+                <div class="search ">
+                    <div class="container mt-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Bạn tìm gì...">
+                            <button class="" type="button">
+                                <i class="fa-solid fa-magnifying-glass"></i> <!-- Icon from Font Awesome -->
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- <div class="input-search">
+                        <input type="text" placeholder="Bạn tìm gì....">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div> -->
+
+                </div>
+
+                <div class="box-right">
+                    <div class="hotline">
+                        <img src="../img/icon-phone.gif" alt="">
+                        <span>0386640397</span>
+                    </div>
+    
+                    <a href="./Cart.html" class="cart">
+                        <div class="circle-grey">
+                            <i class="fa-solid fa-bag-shopping"></i>
+    
+                        </div>
+    
+                        <span class="animate__animated animate__bounceOut animate__infinite ">5</span>
+                    </a>
+    
+                    <div class="account">
+                        <span>
+                            Trần tân
+                        </span>
+                        <div class="circle-grey">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+
+                        <div class="box-action">
+                            <div class="account-action">
+                                
+                                <div class="">
+                                    <a href="./UserOrder.html" class="my-order">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        Đơn hàng của tôi
+                                    </a>
+                                </div>
+                                
+                                <div class="log-out-box mt-2">
+                                    <a class="log-out">
+                                        <i class="fa-solid fa-right-from-bracket"></i>
+                                        Đăng xuất
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom mt0-auto w-100 bg-main " >
+                <div class="navigate flex w-100">
+                    <a href="../index.html" class="nav-parents">
+                        <div class="img">
+                            <img src="../img//icons8-home-96 (1).png" alt="">
+                        </div>
+                        <span>
+                            Trang Chủ
+                        </span>
+                    </a>
+                    <a href="./NewLaptop.html" class="nav-parents">
+                        <div class="img">
+                            <img src="https://laptopaz.vn/media/category/cb_e90d157ceaa8bd152905d6b420c3bd29.png" alt="">
+                        </div>
+                        <span>
+                            Laptop Mới
+                        </span>
+                    </a>
+                    <a href="./LikeNewLaptop.html" class="nav-parents">
+                        <div class="img">
+                            <img src="https://laptopaz.vn/media/category/cb_e90d157ceaa8bd152905d6b420c3bd29.png" alt="">
+                        </div>
+                        <span>
+                            Laptop Like New
+                        </span>
+                    </a>
+                    <a href="#footer" class="nav-parents">
+                        <div class="img">
+                            <img src="../img/icons8-information-100.png" alt="">
+                        </div>
+                        <span>
+                            Liên Hệ
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="contentApp">
+
+                <div class="route">
+                    <div><i class="fa-solid fa-house"></i></div>
+                    <div>/</div>
+                    <div>Laptop Mới</div>
+
+                </div>
+                 <!-- category -->
+                 <div class="category-body">
+                    <!-- <div class="title">
+                        <div class="title-left">
+                            <i class="fa-solid fa-qrcode"></i>
+                            <span>
+                                Top Danh Mục
+                            </span>
+                        </div>
+                    </div> -->
+                    <div class="banner">
+                        <img src="https://www.mayxachtay.vn/uploads/2023/05/Asus-TUF.jpg" alt="">
+                        <img src="https://www.mayxachtay.vn/uploads/2023/05/Lenovo-Gaming.jpg" alt="">
+                        <img src="https://www.mayxachtay.vn/uploads/2023/05/Dell-Gaming.jpg" alt="">
+                        <img src="https://www.mayxachtay.vn/uploads/2023/05/Acer-Gaming.jpg" alt="">
+                    </div>
+
+                    <div class="list-cate">
+                        <div class="cate">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Brand/1/logo-hp-149x40-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="cate">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Brand/1/logo-asus-149x40.png" alt="">
+                            </div>
+                        </div>
+                        <div class="cate">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Brand/1/logo-lenovo-149x40.png" alt="">
+                            </div>
+                        </div>
+                        <div class="cate">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Brand/1/logo-acer-149x40.png" alt="">
+                            </div>
+                        </div>
+                        <div class="cate">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Brand/1/logo-dell-149x40.png" alt="">
+                            </div>
+                        </div>
+                        <div class="cate">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Brand/1/logo-msi-149x40.png" alt="">
+                            </div>
+                        </div>
+                        <div class="cate">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Brand/1/logo-macbook-149x40.png" alt="">
+                            </div>
+                        </div>
+                        <div class="cate">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Brand/1/logo-itel-149x40.png" alt="">
+                            </div>
+                        </div>
+                        <div class="cate">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Brand/1/logo-gigabyte-149x40.png" alt="">
+                            </div>
+                        </div>
+                        <div class="cate">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Brand/1/logo-surface-149x40-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="cate">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Brand/1/Masstel42-b0-200x48-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="cate">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Brand/1/logo-lg-149x40.png" alt="">
+                            </div>
+                        </div>
+                        <div class="cate">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Brand/1/logo-singpc-149x40-1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- van phong -->
+                <div class="van-phong">
+
+                    <div class="title-box-product-top">
+                        <div class="title-left">
+                            
+                            <span>
+                                Học Tập Văn Phòng
+                            </span>
+                        </div>
+
+                        <div class="title-right">
+                            <span>
+                                Xem thêm
+                            </span>
+
+                            <i class="fa-solid fa-caret-right"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="box-product">
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+    
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+    
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+    
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- van phong -->
+                <div class="gaming">
+
+                    <div class="title-box-product-top">
+                        <div class="title-left">
+                            
+                            <span>
+                                Laptop Gaming
+                            </span>
+                        </div>
+
+                        <div class="title-right">
+                            <span>
+                                Xem thêm
+                            </span>
+
+                            <i class="fa-solid fa-caret-right"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="box-product">
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+    
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+    
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+    
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- do hoa -->
+                <div class="do-hoa">
+
+                    <div class="title-box-product-top">
+                        <div class="title-left">
+                            
+                            <span>
+                                Laptop Đồ Họa
+                            </span>
+                        </div>
+
+                        <div class="title-right">
+                            <span>
+                                Xem thêm
+                            </span>
+
+                            <i class="fa-solid fa-caret-right"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="box-product">
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+    
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+    
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+    
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="danh-cho-ban">
+
+                    <div class="title-box-product-top">
+                        <div class="title-left">
+                            
+                            <span>
+                                Dành Cho Bạn
+                            </span>
+                        </div>
+
+                        <div class="title-right">
+                            <span>
+                                Xem thêm
+                            </span>
+
+                            <i class="fa-solid fa-caret-right"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="box-product">
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+    
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+    
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+    
+                        <a href="./Detail.html" class="cardProduct">
+                            <div class="img">
+                                <img src="https://cdn.tgdd.vn/Products/Images/44/272282/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-180222-043416-600x600.jpg" alt="">
+                            </div>
+    
+                            <div class="description">
+                                <div class="name">
+                                    <h6>Acer Nitro 16 2023 (Core i5-13500H, 16GB, 512GB, RTX 4050 6GB</h6>
+                                </div>
+        
+                                <div class="sortDes">
+                                        <div class="ram">
+                                            Ram 8GB
+                                        </div>
+                                        <div class="storage">
+                                            SSD 256GB
+                                        </div>
+
+                                        <div class="is-new">
+                                            Mới
+                                        </div>
+
+                                    </div>
+                                <div class="desBottom">
+                                    
+                                    <div class="price">
+                                        <div class="old-price">
+                                            30.990.000
+                                        </div>
+                                        <div class="curent-price">
+                                            24.990.000 
+                                        </div>
+                                    </div>
+
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div id="footer" class="footer">
+            <div class="container">
+                <div class="about-us">
+                    <div class="img">
+                        <img src="https://laptopaz.vn/media/banner/logo_laptopaz%20(2).jpg" alt="">
+                    </div>
+
+                    <div class="info">
+                        <div class="title">Trụ sở chính  :</div>
+                        <span>Ladeco Building, 266 Doi Can Street, Ba Dinh District, Hanoi.</span>
+                    </div>
+                    <div class="info">
+                        <div class="title">Email  :</div>
+                        <span>support@sapo.vn</span>
+                    </div>
+                    <div class="info">
+                        <div class="title">Hotline  :</div>
+                        <span>0386640397</span>
+                    </div>
+                   
+                </div>
+
+                <div class="policy">
+                    <div class="title">
+                        Chính sách
+                    </div>
+                    <div class="item">
+                        Chính sách mua hàng
+                    </div>
+                    <div class="item">
+                        Chính sách đổi trả
+                    </div>
+                    <div class="item">
+                        Chính sách bảo hành
+                    </div>
+                    <div class="item">
+                        Gửi góp ý, khiếu nại
+                    </div>
+                </div>
+
+                <div class="contact-us">
+                    <div class="title">
+                        Kết nối với chúng tôi
+                    </div>
+                    <div class="social">
+                        <div class="item">
+                            <img src="https://bizweb.dktcdn.net/100/459/533/themes/868331/assets/facebook.png?1690431449159" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="https://bizweb.dktcdn.net/100/459/533/themes/868331/assets/twitter.png?1690431449159" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="https://bizweb.dktcdn.net/100/459/533/themes/868331/assets/instagram.png?1690431449159" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="https://bizweb.dktcdn.net/100/459/533/themes/868331/assets/youtube.png?1690431449159" alt="">
+                        </div>
+                    </div>
+
+                    <div class="title2">
+                        Phương thức thanh toán
+                    </div>
+                    <div class="item2">
+                        Ship Cod
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>
