@@ -1,0 +1,40 @@
+.add-product-page{
+    /* margin-top: ; */
+}
+
+.add-product-page .box-form{
+    margin-top: 1em;
+    background-color: #ffffff;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+.add-product-page .box-form .images input{
+    display: none;
+}
+
+.add-product-page .box-form .images label{
+    margin-top: 1em;
+    width: 100%;
+    min-height: 20em;
+    border: 1px solid #cccccc83;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.add-product-page .box-form .images img{
+    width: 100%;
+}
+
+.add-product-page .box-form .list-img  img{
+    width: 5em;
+}
+
+#selectedImagesContainer{
+    display: flex;
+}
