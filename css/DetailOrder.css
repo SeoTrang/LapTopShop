@@ -1,63 +1,63 @@
-.content-detail-order{
+.detail-order .content-detail-order{
     display: flex;
     justify-content: space-between;
 }
 
-.box-left{
+.detail-order .box-left{
     width: 70%;
 }
 
-.box-right{
+.detail-order .box-right{
     width: 27%;
 }
-.title-top{
+.detail-order .title-top{
     font-size: 20px;
     font-weight: 500;
 }
 
-.box-left .title{
+.detail-order .box-left .title{
     font-size: 20px;
     font-weight: 500;
 }
 
-.box-left .item{
+.detail-order .box-left .item{
     display: flex;
     align-items: center;
 }
 
-.box-left .des{
+.detail-order .box-left .des{
     display: flex;
 }
 
-.maker,.status,.color{
+.detail-order .maker,.status,.color{
     margin-right: 1em;
 }
 
-.box-price{
+.detail-order .box-price{
     display: flex;
 }
 
-.box-left .equa{
+.detail-order .box-left .equa{
     margin:0 2em;
 }
 
-.multiplication{
+.detail-order .multiplication{
     margin: 0 0.5em;
 }
 
-.item img{
+.detail-order .item img{
     width: 7em;
 }
 
-.short-description{
+.detail-order .short-description{
     margin-left: 1em;
 }
 
-.box-left{
+.detail-order .box-left{
     font-weight: 500;
 }
 
-.box-left .des div{
+.detail-order .box-left .des div{
     font-size: 0.8em;
     border: 1px solid #0f336089;
     padding: 0.2em 0.3em;
@@ -65,15 +65,15 @@
 
 }
 
-.box-left .box-price .price, .multiplication, .count, .equa{
+.detail-order .box-left .box-price .price, .multiplication, .count, .equa{
     color: #7D879C;
 }
 
-.box-left .box-price .total-price{
+.detail-order .box-left .box-price .total-price{
     color: #d0021c;
 }
 
-.content-detail-order .box-right{
+.detail-order .content-detail-order .box-right{
     font-size: 17px;
     /* margin-left: 4em; */
     box-shadow: 1px 2px 13px -3px rgba(59,89,152,1);
@@ -85,69 +85,69 @@
 
 
 
-.box-right .item{
+.detail-order .box-right .item{
     display: flex;
     font-weight: 500;
     justify-content: space-between;
 }
 
-.box-right .title{
+.detail-order .box-right .title{
     width: 50%;
 }
 
-.box-right .value{
+.detail-order .box-right .value{
     text-align: end;
     width: 50%;
     color: #d0021c;
 }
 
-.line{
+.detail-order .line{
     margin:1em 0;
     width: 100%;
     height: 1px;
     background-color: #7D879C;
 }
 
-.box-bottom{
+.detail-order .box-bottom{
     display: flex;
     justify-content: space-between;
 }
 
-.box-bottom .address{
+.detail-order .box-bottom .address{
     width: 48%;
 }
 
-.box-bottom .box-action{
+.detail-order .box-bottom .box-action{
     width: 48%;
 }
 
-.box-bottom .address{
+.detail-order .box-bottom .address{
     padding: 0.5em 0.8em;
     border: 1px solid #7d879c81;
     border-radius: 5px;
 }
 
-.box-bottom .address .item{
+.detail-order .box-bottom .address .item{
     margin-top: 1em;
     display: flex;
     justify-content: space-between;
 }
 
-.box-bottom .address .item .title{
+.detail-order .box-bottom .address .item .title{
     width: 30%;
 }
 
-.box-bottom .address .item .value {
+.detail-order .box-bottom .address .item .value {
     width: 67%;
 }
 
-.box-bottom .box-action{
+.detail-order .box-bottom .box-action{
     display: flex ;
     justify-content: space-around;
     
 }
 
-.box-bottom .box-action button{
+.detail-order .box-bottom .box-action button{
     height: 3em;
     width: 15em;
     border: none;
@@ -155,15 +155,15 @@
     border-radius: 5px;
 }
 
-.box-bottom .box-action .historyOrder{
+.detail-order .box-bottom .box-action .historyOrder{
     background-color: #3B5998;
 }
 
-.box-bottom .box-action .historyOrder a{
+.detail-order .box-bottom .box-action .historyOrder a{
     color: #ffffff !important;
     width: 100%;
 }
 
-.box-bottom .box-action .cancelOrder{
+.detail-order .box-bottom .box-action .cancelOrder{
     background-color: #d0021c;
 }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.tiny.cloud/1/pozcbvf8ug4w961kkr291nizvgzvyxzld4q544ona33b27i1/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+  
+</head>
+<body>
+  <textarea>
+    Welcome to TinyMCE!
+  </textarea>
+  <script>
+    tinymce.init({
+        selector: 'textarea',
+        plugins: 'ai tinycomments mentions anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed permanentpen footnotes advtemplate advtable advcode editimage tableofcontents mergetags powerpaste tinymcespellchecker autocorrect a11ychecker typography inlinecss mycustomimage', // Thêm plugin "mycustomimage" vào danh sách plugins
+        toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link mycustomimage media table mergetags | align lineheight | tinycomments | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
+        tinycomments_mode: 'embedded',
+        tinycomments_author: 'Author name',
+        mergetags_list: [
+            { value: 'First.Name', title: 'First Name' },
+            { value: 'Email', title: 'Email' },
+        ],
+        ai_request: (request, respondWith) => respondWith.string(() => Promise.reject("See docs to implement AI Assistant")),
+        // Định nghĩa plugin "mycustomimage"
+        setup: function (editor) {
+            editor.ui.registry.addButton('mycustomimage', {
+                text: 'Chèn ảnh',
+                onAction: function () {
+                // Xử lý khi người dùng nhấn vào nút "Chèn ảnh"
+                // Hiển thị hộp thoại chọn ảnh từ thiết bị
+                const input = document.createElement('input');
+                input.type = 'file';
+                input.accept = 'image/*';
+                input.onchange = function () {
+                    const file = input.files[0];
+                    if (file) {
+                    // Đọc tệp ảnh và chuyển đổi thành base64
+                    const reader = new FileReader();
+                    reader.onload = function (e) {
+                        const base64Image = e.target.result;
+                        // Chèn ảnh vào trình soạn thảo
+                        editor.insertContent(`<img src="${base64Image}" />`);
+                    };
+                    reader.readAsDataURL(file);
+                    }
+                };
+                input.click();
+                },
+            });
+        },
+    });
+
+  </script>
+</body>
+</html>

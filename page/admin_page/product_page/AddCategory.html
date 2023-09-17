@@ -111,9 +111,9 @@
                                 <label for="category" class="form-label">Danh Mục</label>
                                 <select class="form-select" id="category" aria-label="Default select example">
                                     <option selected>Chọn Danh Mục</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
+                                    <option value="1">Dell</option>
+                                    <option value="2">Acer</option>
+                                    <option value="3">Lenovo</option>
                                  </select>
                             </div>
                            
@@ -122,9 +122,8 @@
                                 <label for="status" class="form-label">Tình Trạng</label>
                                 <select class="form-select " id="status" aria-label="Default select example">
                                     <option selected>Chọn Tình Trạng</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
+                                    <option value="1">Mới</option>
+                                    <option value="2">Line New</option>
                                 </select>
                             </div>
                             
@@ -132,18 +131,23 @@
                                 <label for="productName" class="form-label">Tên Sản Phẩm</label>
                                 <input name="productName" type="text" required class="form-control" id="productName" >
                             </div>
+                            
+                            
                             <div class="mb-3 col-md-6">
-                                <label for="userName" class="form-label">Tên người nhận</label>
-                                <input type="text" class="form-control" id="userName" >
+                                <label for="oldPrice" class="form-label">Giá Bán Cũ</label>
+                                <input type="number" name="oldPrice" class="form-control" id="oldPrice" >
                             </div>
                             <div class="mb-3 col-md-6">
-                                <label for="phoneNumber" class="form-label">Số điện thoại người nhận</label>
-                                <input type="number" class="form-control" id="phoneNumber"  onmousewheel="return false;" inputmode="numeric">
-
+                                <label for="discount" class="form-label">Giảm Giá</label>
+                                <input type="number" name="discount" class="form-control" id="discount" >
                             </div>
                             <div class="mb-3 col-md-6">
-                                <label for="address" class="form-label">Địa chỉ nhận hàng</label>
-                                <input type="text" class="form-control" id="address" >
+                                <label for="price" class="form-label">Giá Bán</label>
+                                <input type="number" name="price" class="form-control" id="price" >
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="quantity" class="form-label">Số Lượng</label>
+                                <input  type="number" name="quantity" class="form-control" id="quantity" >
                             </div>
                         </div>
                     </div>

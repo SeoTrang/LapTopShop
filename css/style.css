@@ -317,7 +317,8 @@ html{
 }
 
 .slider .swiper-slide img{
-    height: 570px;
+    /* height: 570px; */
+    width: 100%;
 }
 
 .contentApp{
